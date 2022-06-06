@@ -1,7 +1,7 @@
 # __Week2Homework1__
 Homework on Git fundamentals: Creating repos, cloning repos, creating branches etc  
 
-## __Task 1__  
+## __Task 1 (creating, cloning and pushing repo)__  
 ###### To create a GitHub repository:
 
 - Once you are [logged in](github.com), click on either the 'New' or 'Create a new repository' buttons:  
@@ -43,3 +43,28 @@ __Pushing local repository back into Github:__
 >![](task1/gitpush.png)  
 
 - __BRAVA! YOU HAVE SUCCESSFULLY PUSHED YOUR LOCALLY MODIFIED CHANGES INTO THE REMOTE REPOSITORY!.__ You can now view the changes by visiting the repo URL on your internet browser.
+
+---  
+## __Task 2 (creating and merging branches)__  
+__Branches are useful in instances where multiple people are working on the same main branch. It is better for each user their work into different branches so that any work modified within those branches can be checked thoroughly before merging it into the main branch.__  
+###### To create a branch from the remote repository:  
+- On the repo website, click on main, and type in whatever you would like your branch to be called. Click on the 'create branch: branchname' option to create the branch:  
+>![](task2/createbranch.png)  
+
+###### Accessing the branch from the local repository:  
+- To access the branch from the local repository, open command prompt, enter the following command ```cd C:\Users\Username\filepath``` to access your repository  
+
+- Since you have made some changes in the remote repository (by adding a branch), you have to __pull__ in those changes from the remore repository back to your local machine. You do this by entering the following command: ```git pull```. The terminal should return the following script:  
+>![](task2/gitpull.png) *The script shows the changes that have been pulled, the new branch*
+
+- Now, you can switch from your main branch to the one you created by entering the following command ```git checkout branch_name```. Afterwards, type ```git branch``` to see which branch is currently selected. The following script should be returned:  
+>![](task2/gitcheckout.png) *This shows that the new branch has been selected*  
+
+###### Making changes and pushing back to remote repository
+
+- Enter the filetype you now want to edit. For example, if it is the readme file you want to edit, type ```readme.md```  
+
+- After making your changes, you can then add, commit and push your modified changes back into the GitHub remote repository using the same process as described in Task 1  
+
+###### Granting pull requests  
+- After pushing the modifications into the remote repository, a notification should appear on the repo website, informing users that changes have been pushed into a feature branch. To compare and decide whether to pull the changes into the main branch, click on the 'Compare & pull request' option: 
