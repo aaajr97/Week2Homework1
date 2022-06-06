@@ -67,4 +67,22 @@ __Branches are useful in instances where multiple people are working on the same
 - After making your changes, you can then add, commit and push your modified changes back into the GitHub remote repository using the same process as described in Task 1  
 
 ###### Granting pull requests  
-- After pushing the modifications into the remote repository, a notification should appear on the repo website, informing users that changes have been pushed into a feature branch. To compare and decide whether to pull the changes into the main branch, click on the 'Compare & pull request' option: 
+- After pushing the modifications into the remote repository, a notification should appear on the repo website, informing users that changes have been pushed into a feature branch. To compare and decide whether to pull the changes into the main branch, click on the 'Compare & pull request' option:  
+>![](task2/pullrequest.png)  
+
+- On the following page, scroll down and you can compare the changes that have been made. If there are no conflicts with the previous version, green text at the top should say 'Able to merge', accompanied by a tick.  
+>![](task2/abletomerge.png) *Also within the highlighted circle are dropdown menus allowing you to choose the base branch in which you want the merging to occur in*  
+
+- Click on 'Create pull request'  
+
+- __FINAL STAGE!__ On the following pages, click on 'Merge pull request' and 'Confirm merge' if you are happy with the changes:  
+>![](task2/mergepullrequest.png)
+
+ >![](task2/confirmpullrequest.png)  
+
+- __HURRAH!__ You have successfully merged modifications from a feature branch into a main branch. You are given the option to delete the feature branch by clicking the 'delete branch' button:  
+>![](task2/pullrequestsuccess.png)  
+
+- You can also delete the feature branch locally, by going back to the command prompt and entering the following command ```git branch -d branch_name```
+
+# __HOMEWORK COMPLETE__
