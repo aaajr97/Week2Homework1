@@ -83,6 +83,8 @@ __Branches are useful in instances where multiple people are working on the same
 - __HURRAH!__ You have successfully merged modifications from a feature branch into a main branch. You are given the option to delete the feature branch by clicking the 'delete branch' button:  
 >![](task2/pullrequestsuccess.png)  
 
-- You can also delete the feature branch locally, by going back to the command prompt and entering the following command ```git branch -d branch_name```
+- You can also delete the feature branch locally, by going back to the command prompt and entering the following command ```git branch -d branch_name```  
+
+- To delete the feature branch remotely, enter the code ```git push origin -d branch_name```
 
 # __HOMEWORK COMPLETE__
