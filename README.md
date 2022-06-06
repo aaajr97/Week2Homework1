@@ -36,4 +36,10 @@ __Pushing local repository back into Github:__
 - To make the changes ready, enter the following syntax ```git add . ``` If you run the status command again, the script will state that any modified changes are good to go and can be added into the remote repository:
 >![](task1/gitstatusready.png) *The modified changes are now in what is called the staging area, and are ready to be committed*
 
-- To commit the changes, enter the following command: ```git commit -m "Insert commit message"```. The ```-m``` command allows you to input a message into said commit, and is good business practice, so that other users can see and understand any changes that have been made.  
+- To commit the changes, enter the following command: ```git commit -m "Insert commit message"```. *(The ```-m``` command allows you to input a message into said commit, and is good business practice, so that other users can see and understand any changes that have been made)*.  
+>![](task1/gitcommit.png) *The modified changes are now committed and can be pushed onto the remote repository*
+
+- __FINAL STAGE.__ To push the changes, enter the following command ```git push```. If the operation is successful, the terminal should return a script that looks like this:  
+>![](task1/gitpush.png)  
+
+- __BRAVA! YOU HAVE SUCCESSFULLY PUSHED YOUR LOCALLY MODIFIED CHANGES INTO THE REMOTE REPOSITORY!.__ You can now view the changes by visiting the repo URL on your internet browser. 
